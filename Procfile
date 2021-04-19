@@ -1,2 +1,2 @@
 web: npm run start
-web: node ./src/server/index.js
+web: node MEMORIES_PROJECT/src/server/index.js
