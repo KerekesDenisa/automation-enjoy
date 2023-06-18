@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
+import { Provider } from 'react-redux'; //tine evidenta magazinului Redux
 import { createStore, applyMiddleware, compose} from 'redux';
 import thunk from 'redux-thunk';
 
@@ -15,5 +15,5 @@ ReactDOM.render(
     <Provider store ={store}>
         <App />
     </Provider>,
-    document.getElementById('root')
+    document.getElementById('root') // connecting to the div an id of root
 );

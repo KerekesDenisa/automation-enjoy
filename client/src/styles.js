@@ -1,4 +1,4 @@
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles'; //importare stilizarea App
 
 export default makeStyles((theme) => ({
   appBar: {
@@ -11,6 +11,8 @@ export default makeStyles((theme) => ({
   },
   heading: {
     color: 'rgba(0,183,255, 1)',
+    fontFamily: 'Roboto',
+
   },
   image: {
     marginLeft: '15px',
